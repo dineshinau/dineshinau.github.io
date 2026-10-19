@@ -19,7 +19,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 ::selection { background: #dce5b8; color: #203d32; }
 .skip-link { position: fixed; top: -100px; left: 16px; z-index: 100; background: var(--green); color: white; padding: 12px 20px; }
 .skip-link:focus { top: 12px; }
-.topbar { max-width: var(--max); margin: auto; padding: 22px 32px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid var(--line); position: relative; z-index: 20; }
+.topbar { max-width: var(--max); margin: auto; padding: 22px 32px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 20; background: var(--bg); }
 .brand { display: inline-flex; align-items: center; gap: 12px; font-weight: 700; font-size: 17px; letter-spacing: -.04em; white-space: nowrap; }
 .brand-mark { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--green); color: var(--paper); font-family: "Instrument Serif", Georgia, serif; font-size: 20px; font-weight: 400; }
 .brand-dot { color: var(--accent); }
