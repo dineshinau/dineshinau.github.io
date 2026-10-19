@@ -1,21 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dinesh – WordPress & WooCommerce Developer">
-  <title>Dinesh | WordPress & WooCommerce Developer</title>
-  <style> /* colors, grid layouts, cards, responsive rules */ </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Dinesh Yadav — Technical Project Manager and WordPress/WooCommerce specialist with 10+ years of experience in eCommerce engineering, plugin architecture, integrations, and technical leadership.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dinesh Yadav | WordPress & WooCommerce">
+  <meta property="og:description" content="Technical project leadership, scalable WooCommerce solutions, and open-source contributions.">
+  <meta property="og:url" content="https://dineshinau.github.io/">
+  <title>Dinesh Yadav | WordPress & WooCommerce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
-  <nav>...links to #about, #skills, #experience, #projects, #contact...</nav>
-  <section id="home">hero: name, role, short intro, buttons</section>
-  <section id="about">photo + summary</section>
-  <section id="skills">grid of cards</section>
-  <section id="experience">timeline</section>
-  <section id="projects">grid of project cards with links</section>
-  <section id="contact">email, LinkedIn, GitHub</section>
-  <footer>...</footer>
-  <script> /* mobile menu toggle, smooth scroll */ </script>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Dinesh Yadav home">
+        <span class="brand-mark">DY</span><span>Dinesh Yadav<span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span>
+      </button>
+      <nav id="site-nav" class="nav">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#work">Selected work</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-cta">Let's connect <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> WORDPRESS · WOOCOMMERCE · ENGINEERING LEADERSHIP</div>
+          <h1>Building better<br><span class="gradient-text">eCommerce experiences.</span></h1>
+          <p class="hero-lede">I’m Dinesh Yadav — a Technical Project Manager and WordPress specialist focused on scalable WooCommerce products, thoughtful engineering, and reliable delivery.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="https://www.linkedin.com/in/dineshinau/" target="_blank" rel="noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><strong>10+</strong> years in web development</span>
+            <span class="meta-divider"></span>
+            <span><strong>20+</strong> engineers & QA led</span>
+            <span class="meta-divider"></span>
+            <span><strong>10+</strong> concurrent projects managed</span>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-label="Abstract technical illustration">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="orb orb-a"></div><div class="orb orb-b"></div><div class="orb orb-c"></div>
+          <div class="code-card">
+            <div class="code-top"><span></span><span></span><span></span><small>delivery.php</small></div>
+            <div class="code-lines" aria-hidden="true">
+              <p><i>01</i> <b class="syntax-purple">class</b> <b class="syntax-blue">ReliableDelivery</b></p>
+              <p><i>02</i> {</p>
+              <p><i>03</i> &nbsp; <b class="syntax-purple">public function</b> <b class="syntax-yellow">build</b>() {</p>
+              <p><i>04</i> &nbsp;&nbsp; $quality = <b class="syntax-green">true</b>;</p>
+              <p><i>05</i> &nbsp;&nbsp; $teamwork = <b class="syntax-green">true</b>;</p>
+              <p><i>06</i> &nbsp;&nbsp; <b class="syntax-purple">return</b> <b class="syntax-blue">$impact</b>;</p>
+              <p><i>07</i> &nbsp; }</p><p><i>08</i> }</p>
+            </div>
+            <div class="code-footer"><span class="pulse"></span> shipping thoughtful solutions <span>✓</span></div>
+          </div>
+          <div class="floating-tag tag-top"><span>✳</span> Open source mindset</div>
+          <div class="floating-tag tag-bottom"><span>↗</span> Plan · Build · Improve</div>
+        </div>
+        <div class="hero-bottom-label"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span></div>
+      </section>
+
+      <section class="trust-strip" aria-label="Areas of work">
+        <span>WORDPRESS</span><span>WOOCOMMERCE</span><span>PAYMENT INTEGRATIONS</span><span>PLUGIN ARCHITECTURE</span><span>OPEN SOURCE</span>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2>Technical depth.<br><span class="muted-heading">A delivery-first mindset.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="large-copy">I work at the intersection of engineering, product thinking, and project delivery — helping teams turn complex requirements into maintainable software.</p>
+            <p>Over 10+ years, I’ve built and delivered WordPress and WooCommerce solutions ranging from custom plugins and multi-vendor marketplaces to payment gateways, shipping integrations, subscriptions, and licensing systems.</p>
+            <p>Most recently, I worked as a Technical Project Manager at Webkul Software, leading engineering and QA teams, coordinating stakeholders, and guiding projects from discovery through release.</p>
+            <div class="inline-links">
+              <a href="https://profiles.wordpress.org/dineshinau/" target="_blank" rel="noreferrer">WordPress.org profile <span>↗</span></a>
+              <a href="https://dineshinaublog.wordpress.com/" target="_blank" rel="noreferrer">Technical writing <span>↗</span></a>
+            </div>
+          </div>
+          <div class="principles reveal">
+            <div class="principle"><span class="principle-number">01</span><div><h3>Make complexity manageable</h3><p>Clear requirements, sensible architecture, and delivery plans teams can execute.</p></div></div>
+            <div class="principle"><span class="principle-number">02</span><div><h3>Build for the long term</h3><p>Maintainability, security, performance, and compatibility are part of the design.</p></div></div>
+            <div class="principle"><span class="principle-number">03</span><div><h3>Help teams do their best work</h3><p>Unblock engineers, align stakeholders, and create a shared definition of done.</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section expertise-section" id="expertise">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / EXPERTISE</p>
+          <h2>What I bring<br><span class="muted-heading">to a team.</span></h2>
+        </div>
+        <div class="expertise-grid">
+          <article class="expertise-card reveal"><div class="card-icon">⌘</div><p class="card-index">01 — LEADERSHIP</p><h3>Technical project management</h3><p>Project planning, estimation, scope control, risk and dependency management, stakeholder communication, and release coordination.</p><div class="tag-list"><span>Agile / Scrum</span><span>Team mentoring</span><span>Delivery planning</span></div></article>
+          <article class="expertise-card reveal"><div class="card-icon">⌁</div><p class="card-index">02 — ENGINEERING</p><h3>WordPress & WooCommerce</h3><p>Custom plugin development, extensible architecture, WooCommerce workflows, multisite setups, REST APIs, and platform integrations.</p><div class="tag-list"><span>PHP / OOP</span><span>MySQL</span><span>REST APIs</span></div></article>
+          <article class="expertise-card reveal"><div class="card-icon">↗</div><p class="card-index">03 — RELIABILITY</p><h3>Performance & operations</h3><p>Query and cache optimization, background processing, debugging, deployment workflows, and Docker-based demo environments.</p><div class="tag-list"><span>Redis</span><span>Action Scheduler</span><span>CI/CD</span></div></article>
+          <article class="expertise-card reveal"><div class="card-icon">✳</div><p class="card-index">04 — MODERN WORKFLOWS</p><h3>Open source & AI-assisted development</h3><p>Community contributions, code quality practices, developer tooling, and responsible use of AI-assisted engineering workflows.</p><div class="tag-list"><span>Git / GitHub</span><span>PHPCS</span><span>Codex / Claude</span></div></article>
+        </div>
+        <div class="skills-panel reveal">
+          <div><p class="eyebrow">TECH STACK</p><h3>Tools I work with</h3></div>
+          <div class="skills-cloud"><span>PHP</span><span>WordPress</span><span>WooCommerce</span><span>JavaScript ES6</span><span>React / Gutenberg</span><span>VuePress</span><span>HTML & CSS</span><span>MySQL</span><span>REST APIs</span><span>GraphQL</span><span>Redis</span><span>Docker</span><span>Git</span><span>Webpack</span><span>GitHub Actions</span><span>Linux</span><span>Nginx</span><span>PHP-FPM</span><span>PHPCS</span><span>Action Scheduler</span></div>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work">
+        <div class="section-heading section-heading-row reveal">
+          <div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects with<br><span class="muted-heading">practical impact.</span></h2></div>
+          <a class="text-link" href="https://github.com/dineshinau" target="_blank" rel="noreferrer">More on GitHub <span>↗</span></a>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-visual cogs-visual"><div class="visual-label">WOOCOMMERCE / OPEN SOURCE</div><div class="cogs-symbol">◉<span>↻</span></div><div class="visual-window"><span></span><span></span><span></span><b>Cost of Goods</b><i>Bulk edit · Validate · Update</i></div></div>
+            <div class="project-content"><div class="project-meta"><span>01 / WORDPRESS.ORG PLUGIN</span><span class="project-status">Published</span></div><h3>Bulk COGS Editor for WooCommerce</h3><p>A focused tool for store owners to manage cost-of-goods data more efficiently. Ongoing product work emphasizes performance, reliability, and safe bulk operations.</p><div class="project-actions"><a href="https://wordpress.org/plugins/bulk-cogs-editor-for-woocommerce/" target="_blank" rel="noreferrer">View plugin <span>↗</span></a><a href="https://github.com/dineshinau/bulk-cogs-editor-for-woocommerce" target="_blank" rel="noreferrer">Source code <span>↗</span></a></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual marketplace-visual"><div class="visual-label">ECOMMERCE / PLATFORM</div><div class="marketplace-ui"><div class="market-top"></div><div class="market-sidebar"></div><div class="market-main"><span></span><span></span><span></span><span></span></div><div class="market-stat">Multi-vendor<br><b>Marketplace</b></div></div></div>
+            <div class="project-content"><div class="project-meta"><span>02 / PRODUCT ENGINEERING</span></div><h3>Multi-vendor marketplace ecosystem</h3><p>Led delivery across marketplace capabilities including vendor workflows, buyer–seller communication, group buying, and payment integrations.</p><div class="tag-list"><span>WooCommerce</span><span>Plugin architecture</span></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual integrations-visual"><div class="visual-label">PAYMENTS / SHIPPING</div><div class="integration-map"><div class="integration-node node-core">WC</div><div class="integration-node node-one">PAY</div><div class="integration-node node-two">SHIP</div><div class="integration-node node-three">API</div><div class="connector con-one"></div><div class="connector con-two"></div><div class="connector con-three"></div></div></div>
+            <div class="project-content"><div class="project-meta"><span>03 / INTEGRATIONS</span></div><h3>Payment & shipping integrations</h3><p>Project experience spanning Adyen, Stripe, USPS, Shiprocket, Ezidebit, and other commerce integrations.</p><div class="tag-list"><span>REST APIs</span><span>Payments</span><span>Logistics</span></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual open-source-visual"><div class="visual-label">COMMUNITY / OPEN SOURCE</div><div class="branch-graphic"><span class="branch-dot"></span><span class="branch-line"></span><span class="branch-dot"></span><span class="branch-line branch-line-two"></span><span class="branch-dot"></span><span class="branch-check">✓</span></div></div>
+            <div class="project-content"><div class="project-meta"><span>04 / COMMUNITY</span></div><h3>WordPress contributions</h3><p>Contributing to the WordPress ecosystem through translation work, community participation, and work around WordPress.org Core and Meta projects.</p><div class="project-actions"><a href="https://profiles.wordpress.org/dineshinau/" target="_blank" rel="noreferrer">WordPress.org profile <span>↗</span></a><a href="https://github.com/WordPress/wordpress.org/pulls" target="_blank" rel="noreferrer">Explore Meta PRs <span>↗</span></a></div></div>
+          </article>
+        </div>
+        <p class="section-note">Selected examples from a broader portfolio of commercial plugins and client projects. Some work was delivered as part of a team at previous employers.</p>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="section-heading reveal"><p class="eyebrow">04 / EXPERIENCE</p><h2>A decade of<br><span class="muted-heading">building and delivering.</span></h2></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="timeline-date">FEB 2021 — SEP 2026</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-title-row"><div><h3>Technical Project Manager</h3><p class="company">Webkul Software Pvt. Ltd. <span>· Noida</span></p></div><span class="timeline-badge">Most recent</span></div><p>Led planning, technical coordination, and delivery for WordPress and WooCommerce products. Managed and mentored a 20+ member engineering and QA team and coordinated 10+ concurrent client and product projects.</p><ul><li>Translated business requirements into estimates, technical tasks, and delivery plans.</li><li>Coordinated stakeholders, resolved blockers, and supported release quality through code review and engineering standards.</li><li>Worked across marketplace systems, pre-orders, payment gateways, shipping, subscriptions, licensing, and other WooCommerce extensions.</li></ul></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">MAY 2018 — NOV 2020</div><div class="timeline-marker"></div><div class="timeline-content"><h3>Senior PHP Developer</h3><p class="company">Wisetr Pvt. Ltd. / XLPlugins <span>· New Delhi</span></p><p>Developed and maintained WordPress and WooCommerce plugins, supported releases to WordPress.org, and worked on payment integrations and conversion-focused commerce extensions.</p><ul><li>Contributed to products including Quick Plugin Switcher, Finale Lite, NextMove Lite, and related WooCommerce extensions.</li></ul></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">MAR 2017 — MAY 2018</div><div class="timeline-marker"></div><div class="timeline-content"><h3>Software Engineer</h3><p class="company">ClagTech Technology Pvt. Ltd. <span>· Lucknow</span></p><p>Built and customized WordPress websites and PHP applications for a range of client requirements.</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">MAY 2016 — MAR 2017</div><div class="timeline-marker"></div><div class="timeline-content"><h3>WordPress Developer</h3><p class="company">WebCom Designs Services Pvt. Ltd. <span>· Lucknow</span></p><p>Developed and customized WordPress websites and created the BuddyPress Activity Filter plugin for the WordPress plugin repository.</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">JAN 2016 — MAY 2016</div><div class="timeline-marker"></div><div class="timeline-content"><h3>Software Developer Trainee</h3><p class="company">CEDCOSS Technologies <span>· Lucknow</span></p><p>Built foundational experience in PHP, WordPress, WooCommerce, plugin development, and theme customization.</p></div></article>
+        </div>
+      </section>
+
+      <section class="section education-section" id="education">
+        <div class="section-heading reveal"><p class="eyebrow">05 / EDUCATION</p><h2>Learning that<br><span class="muted-heading">supports the work.</span></h2></div>
+        <div class="education-grid">
+          <article class="education-card reveal"><span class="education-year">2020</span><div><h3>MBA — Finance</h3><p>U.P. Rajarshi Tandon Open University, Prayagraj</p></div><span class="education-icon">↗</span></article>
+          <article class="education-card reveal"><span class="education-year">2015</span><div><h3>B.Tech — Computer Science & Engineering</h3><p>Shri Ramswaroop Memorial College of Engineering and Management, Lucknow · AKTU</p></div><span class="education-icon">⌘</span></article>
+          <article class="education-card reveal"><span class="education-year">2012</span><div><h3>B.Sc. — Mathematics</h3><p>University of Allahabad</p></div><span class="education-icon">∑</span></article>
+        </div>
+      </section>
+
+      <section class="contact-section section" id="contact">
+        <div class="contact-glow"></div>
+        <div class="contact-content reveal">
+          <p class="eyebrow">06 / GET IN TOUCH</p>
+          <h2>Have a WordPress challenge<br>or an idea to build?</h2>
+          <p>I’m interested in connecting with teams building thoughtful WordPress products, enterprise commerce solutions, and open-source software.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:dineshinau@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="https://www.linkedin.com/in/dineshinau/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="contact-side reveal"><span class="contact-symbol">DY<span>.</span></span><p>Good software is built<br>by good people, together.</p><a href="https://github.com/dineshinau" target="_blank" rel="noreferrer">github.com/dineshinau ↗</a></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="brand" href="#home"><span class="brand-mark">DY</span><span>Dinesh Yadav<span class="brand-dot">.</span></span></a>
+      <p>Designed with purpose. Built for the open web.</p>
+      <div class="footer-links"><a href="https://github.com/dineshinau" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/dineshinau/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://profiles.wordpress.org/dineshinau/" target="_blank" rel="noreferrer">WordPress.org</a></div>
+      <span class="copyright">© <span id="year"></span> Dinesh Yadav</span>
+    </footer>
+  </div>
+  <button class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+  <script src="./assets/script.js"></script>
 </body>
 </html>
